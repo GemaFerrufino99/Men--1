@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 20px;
+}
+.conteiner{
+    height: calc(100vh - 92.6666px - 92.6667px);
+}
+
+.menu{
+    list-style: auto;
+    padding: 0;
+    background-color: #fcc4e8;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #f39cd5;
+}
+
+.img{
+    margin-top: 135px;
+}
